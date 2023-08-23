@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: white url(./assets/img/fundo.png) repeat-x;
+}
+
+#container{
+    width: 750px;
+    margin: 0 auto;
+}
+
+#topo{
+    height: 152px;
+    background: url(img/fundo.png) no-repeat;
+    padding-top: 25px;
+}
+
+.logo{
+    width: 152px;
+    height: 66px;
+    background: url(img/logo.png);
+}
+
+a:visited{
+    color: #b10333;
+    padding: 2px;
+}
+
+a:hover{
+    color: #e50040;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#topo ul{
+    margin-top: 30px;
+    background: #b10333;
+    float: left;
+}
+
+#topo ul li{
+    float: left;
+}
+#topo ul a{
+    font-size: 20px;
+    display: block;
+    padding: 0.5em 1em;
+}
