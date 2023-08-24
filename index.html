@@ -1,11 +1,108 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Museu Nacional</title>
+    <link rel="stylesheet" href="assets/estilo.css"/>
+    <link rel="stylesheet" href="assets/normalize.css"/>
 </head>
 <body>
-    
+    <div id="container">
+        <header>
+            <div id="logo">
+                <h1><a href="">Museu Nacional</a></h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Exposições</a></li>
+                    <li><a href="">Pesquisa</a></li>
+                    <li><a href="">Acervo</a></li>
+                    <li><a href="">Vídeos</a></li>
+                    <li><a href="">Fotos</a></li>
+                    <li><a href="">Contato</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div id="principal">
+            <div id="conteudo">
+                <section id="capa">
+                    <img alt="imagem de um museu" src="assets/img/museu.png"/>
+                </section>
+                <section id="postagem">
+                    <article id="video">
+                        <h3>Vídeo: Conheça o Museu</h3>
+                        <iframe width="310" height="170" src="https://www.youtube.com/embed/T9f8Ml8iJao?si=8YAwM5b4blwE0XiE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                    </article>
+                    <article id="mapa">
+                        <h3>Conheça o Museu</h3>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12084.489431003543!2d-73.9739882!3d40.7813241!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c258f4b00f7a09%3A0xa27d8172624c5db1!2sMuseu%20Americano%20de%20Hist%C3%B3ria%20Natural!5e0!3m2!1spt-BR!2sbr!4v1692836699878!5m2!1spt-BR!2sbr" width="310" height="170" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                    </article>
+                    <article id="exposicoes">
+                        <h3>Exposições</h3>
+                        <ul>
+                            <li><a href="">Vida de Inseto</a></li>
+                            <li><a href="">Papo Cabeça</a></li>
+                            <li><a href="">Ossos que juntam pó</a></li>
+                            <li><a href="">Um verdinho (mary... mary Jane)</a></li>
+                            <li><a href="">A faz buraco</a></li>
+                            <li><a href="">Jurrasic Park que coube no orçamento</a></li>
+                            <li><a href="">Veja tudo ai poh</a></li>
+                        </ul>
+                    </article>
+                    <article id="historia">
+                        <h3>200 anos de história</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus sint, ad error, molestiae aliquam, molestias et expedita ut minima officiis iste tenetur mollitia accusamus dignissimos quaerat eligendi neque architecto libero.</p>
+
+                    </article>
+                </section>
+            </div>
+            <aside>
+                <section id="depoimento">
+                    <img src="assets/img/depoimento.png"/>
+                </section>
+                <section id="visita">
+                    <h4>Faça uma visita</h4>
+                    <form>
+                        <fieldset>
+                            <legend>Selecione uma data</legend>
+                            <label>Data</label>
+                            <input type="text" value="dd/mm/aaaa"/>
+                            <label>Quantidade de pessoas</label>
+                            <input type="text" id="qtde" value="1" style="width: 11px;"/>
+                        </fieldset>
+                        <input type="submit" value="Verificar disponibilidade" class=" botao"/>
+                    </form>
+                </section>
+                <section id="galeria">
+                    <a href="">
+                        <img src="assets/img/imagem1.jpg" width="93px" height="93px"/>
+                    </a>
+                    <a href="">
+                        <img src="assets/img/imagem2.jpg" width="93px" height="93px"/>
+                    </a>
+                    <a href="">
+                        <img src="assets/img/imagem3.jpg" width="93px" height="93px"/>
+                    </a>
+                    <a href="">
+                        <img src="assets/img/imagem4.jpg" width="93px" height="93px"/>
+                    </a>
+                </section>
+            </aside>
+            <footer>
+                <p>
+                    <a href="">Home</a>
+                    <a href="">Exposições</a>
+                    <a href="">Pesquisa</a>
+                    <a href="">Acervo</a>
+                    <a href="">Video</a>
+                    <a href="">Fotos</a>
+                    <a href="">Contato</a>
+                </p>
+                <p>
+                    2023 <a href="">Museu Nacional</a> - Todos os direitos reservados.
+                </p>
+            </footer>
+        </div>
+    </div>
 </body>
 </html>
